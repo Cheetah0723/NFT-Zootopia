@@ -1,0 +1,29 @@
+.navbar {
+  padding: 0 150px;
+  z-index: 100;
+  width: calc(100% - 300px);
+
+  height: 100px;
+  background-color: #001b18;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.navbar-logo img {
+  width: 300px;
+  height: 98px;
+}
+
+.navbar-buttons {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-buttons a {
+  text-decoration: none;
+  color: white;
+}
