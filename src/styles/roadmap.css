@@ -1,0 +1,208 @@
+.roadmap {
+  position: relative;
+  background-color: rgba(12, 138, 117, 0.12);
+  /* z-index: -1; */
+}
+
+.roadmap h2 {
+  color: white;
+  /* margin: 0; */
+}
+
+.roadmap p {
+  margin: 0;
+  color: white;
+}
+
+.roadmap-title {
+  padding-top: 175px;
+}
+
+.roadmap-title h2 {
+  font-size: 100px;
+  letter-spacing: 20%;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #018678;
+  z-index: -1;
+}
+
+.roadmap-title p {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  z-index: 2;
+}
+
+.roadmap-title .small-line {
+  margin: 0 auto;
+}
+
+/* .roadmap-bar {
+  display: flex;
+  justify-content: center;
+} */
+
+.roadmap-bar-title p {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 90px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #ff9f55;
+  top: 82px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 96px;
+  width: 0;
+  z-index: 0;
+  right: 15px;
+  border: medium solid white;
+  border-width: 3px 40px 3px 40px;
+  border-color: white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 96px;
+  width: 0;
+  z-index: 0;
+  left: 15px;
+  border: medium solid white;
+  border-width: 3px 40px 3px 40px;
+  border-color: white;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 25px;
+  background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
+  height: 172px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.content h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.content p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.view {
+  margin: 50px 0 0 0;
+  height: 52px;
+  width: 194px;
+  font-size: 20px;
+  color: white;
+  z-index: 1;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}

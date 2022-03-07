@@ -1,6 +1,8 @@
 .info {
   background-color: #001b18;
   padding: 150px 0 0 0;
+  z-index: 5;
+  height: 1350px;
 }
 
 .info-contents {
@@ -19,10 +21,24 @@
   background: linear-gradient(#71b25a, #018678);
 }
 
+.info-content-context-title {
+  font-size: 50px;
+  color: white;
+}
+
 .small-line {
   border: 1px solid #71b25a;
   width: 65px;
 }
+
+/* .all img {
+  position: absolute;
+  height: 865px;
+  width: 946px;
+  left: 486px;
+  top: 1779px;
+  border-radius: 0px;
+} */
 
 .blend {
   background-image: url("../img/blend.png");
