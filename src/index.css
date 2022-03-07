@@ -29,8 +29,14 @@ h2 {
   color: white;
 }
 
-span {
+a {
   color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
 
 @font-face {
@@ -38,8 +44,36 @@ span {
   src: local("Orange"), url(./styles/AgentOrange.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Zootopia";
+  src: local("Zootopia"), url(./styles/Zootopia.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "WaltReg";
+  src: local("WaltReg"),
+    url(./styles/WaltDisneyFontRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "WaltUi";
+  src: local("WaltUi"), url(./styles/WaltDisneyUi.ttf) format("truetype");
+}
+
 .f-orange {
   font-family: "Orange";
+}
+
+.f-zootopia {
+  font-family: "Zootopia";
+}
+
+.f-waltreg {
+  font-family: "WaltReg";
+}
+
+.f-waltui {
+  font-family: "WaltUi";
 }
 
 .flex {

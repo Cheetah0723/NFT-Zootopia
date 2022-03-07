@@ -1,7 +1,7 @@
 .roadmap {
   position: relative;
   background-color: rgba(12, 138, 117, 0.12);
-  z-index: -1;
+  z-index: 0;
 }
 
 .roadmap h2 {
@@ -157,21 +157,25 @@
 .content h2 {
   font-size: 40px;
   margin: 0;
+  font-family: "WaltReg";
 }
 
 .content p {
   margin-top: 10px;
   font-size: 18px;
+  font-family: "WaltUi";
+}
+
+.view-before {
+  margin-bottom: 50px;
 }
 
 .view {
-  margin: 50px 0 0 0;
-  height: 52px;
-  width: 194px;
+  margin-top: 50px;
+  padding: 12px 50px;
   font-size: 20px;
   color: white;
-  z-index: 1;
-  border: none;
+
   border-radius: 30px;
   background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
 }

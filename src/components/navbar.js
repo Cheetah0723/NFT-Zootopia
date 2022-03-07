@@ -17,8 +17,8 @@ const NavBar = () => {
         <a href="#">Games</a>
         <a href="#">White Paper</a>
       </div>
-      <div className="navbar-wallet">
-        <button className="wallet-connection">Connect Wallet</button>
+      <div className="navbar-wallet ">
+        <button className="wallet-connection f-waltui ">Connect Wallet</button>
       </div>
     </div>
   )

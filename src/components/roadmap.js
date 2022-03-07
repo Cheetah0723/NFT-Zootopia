@@ -45,13 +45,15 @@ const Roadmap = () => {
               <p>Honor of Gods Game Profit Sharing With GHOG NFT Holders</p>
             </div>
           </div>
-          <div className="container right">
+          <div className="container right view-before">
             <div className="content">
               <h2>06</h2>
               <p>Launching of Other Play-to-Earn Games In The Pipline</p>
             </div>
           </div>
-          <button className="view">View All</button>
+          <a className="view" href="#">
+            View All
+          </a>
         </div>
       </div>
     </div>

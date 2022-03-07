@@ -45,6 +45,7 @@ const Team = () => {
           </div>
         </div>
       </div>
+      <div className="blend team-blend" />
     </div>
   )
 }

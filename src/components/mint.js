@@ -1,8 +1,13 @@
+import { useState } from "react"
+
 import minus from "../img/minus.png"
 import plus from "../img/plus.png"
+
+import ProgressBar from "./progressbar"
 import "../styles/mint.css"
 
 const Mint = () => {
+  const [count, setCount] = useState(0)
   return (
     <div className="mint">
       <div className="flex">
@@ -11,11 +16,11 @@ const Mint = () => {
       </div>
       <div className="charge">
         <div className=" flex charge-elements">
-          <a>
+          <a onClick={() => setCount(count - 1)}>
             <img src={minus} />
           </a>
-          <div></div>
-          <a>
+          <ProgressBar count={count} />
+          <a onClick={() => setCount(count + 1)}>
             <img src={plus} />
           </a>
         </div>

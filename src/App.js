@@ -6,6 +6,7 @@ import Faq from "./components/faq"
 import Team from "./components/team"
 import Game from "./components/games"
 import Mint from "./components/mint"
+import ContactUs from "./components/contact"
 import "./App.css"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Team />
       <Game />
       <Mint />
+      <ContactUs />
     </div>
   )
 }

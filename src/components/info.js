@@ -13,7 +13,9 @@ const Info = () => {
         </div>
         <div className="info-content start">
           <div className="info-content-context ">
-            <h2 className="info-content-context-title">We Are ZooToPia</h2>
+            <h2 className="info-content-context-title f-waltreg">
+              We Are ZooToPia
+            </h2>
             <div className="small-line" />
             <p>
               Sed ut perspiciatis unde omnis iste natus enim ad minim veniam,
