@@ -41,3 +41,7 @@ span {
 .f-orange {
   font-family: "Orange";
 }
+
+.flex {
+  display: flex;
+}

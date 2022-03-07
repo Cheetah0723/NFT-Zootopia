@@ -1,0 +1,42 @@
+.mint {
+  height: 300px;
+  background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
+  padding: 75px 350px;
+}
+
+.mint .flex {
+  align-items: center;
+}
+
+.mint p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.mint-amount {
+  font-size: 50px !important;
+  margin-right: 25px !important;
+}
+
+.charge {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.mint a {
+  display: flex;
+  align-items: center;
+}
+
+.mint a img {
+  border-radius: 50%;
+}
+
+.mint-btn {
+  padding: 15px 40px;
+  font-size: 30px;
+  color: rgba(113, 178, 90, 1);
+  border: none;
+  border-radius: 30px;
+}
