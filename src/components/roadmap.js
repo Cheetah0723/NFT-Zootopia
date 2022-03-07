@@ -13,44 +13,46 @@ const Roadmap = () => {
         <p>The Journey of</p>
         <p>Zootopia</p>
       </div>
-      <div className="timeline">
-        <div className="container left">
-          <div className="content">
-            <h2>01</h2>
-            <p>Launch of ZooToPia - Honor of Gods(GHOG) NFTs In Feb 2022</p>
+      <div className="timeline-board">
+        <div className="timeline">
+          <div className="container left">
+            <div className="content">
+              <h2>01</h2>
+              <p>Launch of ZooToPia - Honor of Gods(GHOG) NFTs In Feb 2022</p>
+            </div>
           </div>
-        </div>
-        <div className="container right">
-          <div className="content">
-            <h2>02</h2>
-            <p>Staking of GHOG NFT</p>
+          <div className="container right">
+            <div className="content">
+              <h2>02</h2>
+              <p>Staking of GHOG NFT</p>
+            </div>
           </div>
-        </div>
-        <div className="container left">
-          <div className="content">
-            <h2>03</h2>
-            <p>Beta Testing of Honor of Gods Game</p>
+          <div className="container left">
+            <div className="content">
+              <h2>03</h2>
+              <p>Beta Testing of Honor of Gods Game</p>
+            </div>
           </div>
-        </div>
-        <div className="container right">
-          <div className="content">
-            <h2>04</h2>
-            <p>Honor of Gods Game Launch</p>
+          <div className="container right">
+            <div className="content">
+              <h2>04</h2>
+              <p>Honor of Gods Game Launch</p>
+            </div>
           </div>
-        </div>
-        <div className="container left">
-          <div className="content">
-            <h2>05</h2>
-            <p>Honor of Gods Game Profit Sharing With GHOG NFT Holders</p>
+          <div className="container left">
+            <div className="content">
+              <h2>05</h2>
+              <p>Honor of Gods Game Profit Sharing With GHOG NFT Holders</p>
+            </div>
           </div>
-        </div>
-        <div className="container right">
-          <div className="content">
-            <h2>06</h2>
-            <p>Launching of Other Play-to-Earn Games In The Pipline</p>
+          <div className="container right">
+            <div className="content">
+              <h2>06</h2>
+              <p>Launching of Other Play-to-Earn Games In The Pipline</p>
+            </div>
           </div>
+          <button className="view">View All</button>
         </div>
-        <button className="view">View All</button>
       </div>
     </div>
   )

@@ -11,8 +11,8 @@ const Info = () => {
             <img src={sheep} />
           </div>
         </div>
-        <div className="info-content">
-          <div className="info-content-context">
+        <div className="info-content start">
+          <div className="info-content-context ">
             <h2 className="info-content-context-title">We Are ZooToPia</h2>
             <div className="small-line" />
             <p>

@@ -1,8 +1,8 @@
 .info {
   background-color: #001b18;
-  padding: 150px 0 0 0;
+  padding: 50px 0 0 0;
   z-index: 5;
-  height: 1350px;
+  height: 1420px;
 }
 
 .info-contents {
@@ -12,11 +12,18 @@
 
 .info-content {
   width: 50%;
+  margin: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .info-content-imgs {
   width: 400px;
   height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   border-radius: 10px;
   background: linear-gradient(#71b25a, #018678);
 }
@@ -24,6 +31,7 @@
 .info-content-context-title {
   font-size: 50px;
   color: white;
+  text-align: left;
 }
 
 .small-line {
@@ -31,14 +39,42 @@
   width: 65px;
 }
 
-/* .all img {
-  position: absolute;
-  height: 865px;
+.start {
+  justify-content: start !important;
+}
+
+.info-content-context {
+  width: 400px;
+}
+
+.info-content-context h2 {
+  margin: 0;
+}
+
+.info-content-context p {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+}
+
+.info-content-context {
+  text-align: left;
+}
+
+.info-content-context button {
+  height: 52px;
+  width: 194px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
+}
+
+.all img {
   width: 946px;
-  left: 486px;
-  top: 1779px;
-  border-radius: 0px;
-} */
+  height: 865px;
+}
 
 .blend {
   background-image: url("../img/blend.png");

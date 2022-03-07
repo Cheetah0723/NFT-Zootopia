@@ -1,7 +1,7 @@
 .roadmap {
   position: relative;
   background-color: rgba(12, 138, 117, 0.12);
-  /* z-index: -1; */
+  z-index: -1;
 }
 
 .roadmap h2 {
@@ -15,12 +15,11 @@
 }
 
 .roadmap-title {
-  padding-top: 175px;
+  padding-top: 155px;
 }
 
 .roadmap-title h2 {
   font-size: 100px;
-  letter-spacing: 20%;
   margin: 0;
   position: absolute;
   top: 100px;
@@ -40,7 +39,7 @@
 }
 
 .roadmap-title .small-line {
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* .roadmap-bar {
@@ -55,6 +54,10 @@
   line-height: 60px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.timeline-board {
+  padding: 50px 0 100px 0;
 }
 
 /* The actual timeline (the vertical ruler) */

@@ -21,6 +21,18 @@ html {
   overflow-x: hidden;
 }
 
+p {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
 @font-face {
   font-family: "Orange";
   src: local("Orange"), url(./styles/AgentOrange.ttf) format("truetype");
