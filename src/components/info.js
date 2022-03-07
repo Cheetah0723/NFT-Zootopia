@@ -1,3 +1,4 @@
+import all from "../img/all.png"
 import sheep from "../img/sheep.png"
 import "../styles/info.css"
 
@@ -7,14 +8,10 @@ const Info = () => {
       <div className="info-contents">
         <div className="info-content">
           <div className="info-content-imgs">
-            <div className="info-content-img sheep-pos">
-              <img src={sheep} />
-            </div>
-            <div className="info-content-img lion-pos">
-              <img src={sheep} />
-              <img src={sheep} />
-            </div>
+            <img src={sheep} />
           </div>
+        </div>
+        <div className="info-content">
           <div className="info-content-context">
             <h2 className="info-content-context-title">We Are ZooToPia</h2>
             <div className="small-line" />
@@ -30,10 +27,15 @@ const Info = () => {
               survived not only five centuries, but also the leap into
               electronic typesetting remaining essentially unchanged.
             </p>
+            <button>More About Us</button>
           </div>
         </div>
-        <div className="info-content"></div>
       </div>
+      <div className="all">
+        <img src={all} />
+      </div>
+      <div className="blend about-left" />
+      <div className="blend about-right" />
     </div>
   )
 }

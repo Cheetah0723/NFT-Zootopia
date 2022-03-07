@@ -1,3 +1,44 @@
 .info {
   background-color: #001b18;
+  padding: 150px 0 0 0;
+}
+
+.info-contents {
+  padding: 0 300px;
+  display: flex;
+}
+
+.info-content {
+  width: 50%;
+}
+
+.info-content-imgs {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  background: linear-gradient(#71b25a, #018678);
+}
+
+.small-line {
+  border: 1px solid #71b25a;
+  width: 65px;
+}
+
+.blend {
+  background-image: url("../img/blend.png");
+  position: absolute;
+  background-size: cover;
+  width: 1392px;
+  height: 1191px;
+  opacity: 0.2;
+}
+
+.about-left {
+  top: 1480px;
+  left: -839px;
+}
+
+.about-right {
+  top: 894px;
+  left: 1390px;
 }

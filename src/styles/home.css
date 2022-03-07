@@ -1,15 +1,11 @@
-/* .home {
-  
-} */
+.home {
+  background-color: #001b18;
+}
 
 .home_bg {
   margin-top: 100px;
   width: 100%;
   width: 100%;
   height: calc(100vh - 100px);
-  top: 0;
   object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
