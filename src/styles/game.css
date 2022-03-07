@@ -1,0 +1,71 @@
+.game {
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.game h2 {
+  color: white;
+}
+
+.game p {
+  margin: 0;
+  color: white;
+}
+
+.game-title {
+  padding-top: 155px;
+}
+
+.game-title h2 {
+  font-size: 100px;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #018678;
+  z-index: -1;
+}
+
+.game-title p {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  z-index: 2;
+}
+
+.game-title .small-line {
+  margin: 20px auto;
+}
+
+.game-bar-title p {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.game-board {
+  margin-top: 50px;
+}
+
+.game-board img {
+  box-shadow: 35px 35px rgba(113, 178, 90, 1);
+}
+
+.play-btn {
+  margin: 70px 0 100px 0;
+  padding: 12px 51px;
+  background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+}
