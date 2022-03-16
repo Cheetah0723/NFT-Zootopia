@@ -126,5 +126,9 @@
   height: 310px;
   margin: 15px;
   border-radius: 30px;
+  display: flex;
+  /* align-items: center; */
+  /* text-align: center; */
+  justify-content: center;
   background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
 }
