@@ -57,7 +57,8 @@
 }
 
 .game-board img {
-  box-shadow: 35px 35px rgba(113, 178, 90, 1);
+  box-shadow: 25px 25px 5px rgb(58, 51, 51);
+  border-radius: 10px;
 }
 
 .play-btn {
@@ -67,5 +68,6 @@
   border: none;
   border-radius: 30px;
   font-size: 20px;
+  font-family: "Orange";
   color: white;
 }
