@@ -39,12 +39,12 @@ const Team = () => {
         <div className="team-members-bottom">
           <div className="team-member">
             <img src={sumiya} />
-            <p className="member-name">Sumiya Gondal</p>
+            <p className="member-name">Sumyia Gondal</p>
             <p className="member-role">Marketing Manager</p>
           </div>
           <div className="team-member">
             <img src={cousine} />
-            <p className="member-name">Yuki</p>
+            <p className="member-name">Yasuda Yuki</p>
             <p className="member-role">Developer</p>
           </div>
         </div>
