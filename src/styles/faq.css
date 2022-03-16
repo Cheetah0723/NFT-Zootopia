@@ -110,14 +110,14 @@
 
 .img-gallery-top {
   position: absolute;
-  left: -150px;
+  left: -90px;
   display: flex;
 }
 
 .img-gallery-bottom {
   position: absolute;
   top: 340px;
-  left: 15px;
+  left: 80px;
   display: flex;
 }
 
