@@ -67,8 +67,20 @@
 }
 
 .team-member img {
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  border: 13px solid rgba(113, 178, 90, 1);
+  border: 10px solid rgba(113, 178, 90, 1);
+}
+
+.member-name {
+  font-size: 28px;
+  font-family: "Zootopia";
+}
+
+.member-role {
+  font-size: 24px;
+  font-family: "WaltUi";
 }
 
 .team-blend {

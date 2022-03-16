@@ -19,6 +19,7 @@ li {
   color: white;
   list-style: none;
   font-size: 18px;
+  margin: 4px;
 }
 
 .contact-introduction {
@@ -50,12 +51,34 @@ li {
   text-align: left;
 }
 
+.email {
+  background-color: white;
+  border-radius: 100px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
 input {
-  background: rgba(255, 255, 255, 1);
+  background: transparent;
   height: 46px;
   width: 302px;
-  border-radius: 100px;
   border: none;
   font-size: 18px;
   padding: 18px;
+  outline: none;
+  width: 260px;
+  display: flex;
+  align-items: center;
+}
+
+.email svg {
+  color: rgba(113, 178, 90, 1);
+  font-size: 24px;
+}
+
+@media (max-width: 1600px) {
+  .contactus {
+    padding: 20px 150px;
+  }
 }

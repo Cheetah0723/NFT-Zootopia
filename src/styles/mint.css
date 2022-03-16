@@ -34,9 +34,15 @@
 }
 
 .mint-btn {
-  padding: 15px 40px;
+  padding: 0px 50px;
   font-size: 30px;
   color: rgba(113, 178, 90, 1);
   border: none;
   border-radius: 30px;
+}
+
+@media (max-width: 1600px) {
+  .mint {
+    padding: 75px 150px;
+  }
 }

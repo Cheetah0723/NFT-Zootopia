@@ -24,7 +24,7 @@ const Mint = () => {
             <img src={plus} />
           </a>
         </div>
-        <button className="mint-btn">Mint</button>
+        <button className="mint-btn f-waltui">Mint</button>
       </div>
     </div>
   )

@@ -1,4 +1,8 @@
-import ceo from "../img/ceo.png"
+import yuki from "../img/Yuki.png"
+import tentra from "../img/Tentra.png"
+import okura from "../img/Okura.png"
+import sumiya from "../img/Sumiya.png"
+import cousine from "../img/Cousine.png"
 
 import "../styles/team.css"
 
@@ -17,31 +21,31 @@ const Team = () => {
       <div className="team-members">
         <div className="team-members-top">
           <div className="team-member">
-            <img src={ceo} />
-            <p className="member-name">Mike Anderson</p>
+            <img src={yuki} />
+            <p className="member-name">Iwamoto Yuki</p>
             <p className="member-role">Founder & CEO</p>
           </div>
           <div className="team-member">
-            <img src={ceo} />
-            <p className="member-name">Mike Anderson</p>
-            <p className="member-role">Founder & CEO</p>
+            <img src={tentra} />
+            <p className="member-name">Tentra</p>
+            <p className="member-role">Founder & CFO</p>
           </div>
           <div className="team-member">
-            <img src={ceo} />
-            <p className="member-name">Mike Anderson</p>
-            <p className="member-role">Founder & CEO</p>
+            <img src={okura} />
+            <p className="member-name">Okura Tasuhiro</p>
+            <p className="member-role">Founder & CTO</p>
           </div>
         </div>
         <div className="team-members-bottom">
           <div className="team-member">
-            <img src={ceo} />
-            <p className="member-name">Mike Anderson</p>
-            <p className="member-role">Founder & CEO</p>
+            <img src={sumiya} />
+            <p className="member-name">Sumiya Gondal</p>
+            <p className="member-role">Marketing Manager</p>
           </div>
           <div className="team-member">
-            <img src={ceo} />
-            <p className="member-name">Mike Anderson</p>
-            <p className="member-role">Founder & CEO</p>
+            <img src={cousine} />
+            <p className="member-name">Yuki</p>
+            <p className="member-role">Developer</p>
           </div>
         </div>
       </div>

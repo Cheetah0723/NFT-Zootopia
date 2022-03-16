@@ -1,6 +1,7 @@
 // import email from "../img/email.png"
 import logo from "../img/logo.png"
 import "../styles/contact.css"
+import { BiMailSend } from "react-icons/bi"
 
 const ContactUs = () => {
   return (
@@ -66,7 +67,9 @@ const ContactUs = () => {
         <p>Duis aute irure dolor in reprehen derit in voluptate velit.</p>
         <div className="email">
           <input type="email" placeholder="Enter email address" />
-          <a href="#"></a>
+          <a href="#">
+            <BiMailSend />
+          </a>
         </div>
       </div>
     </div>
