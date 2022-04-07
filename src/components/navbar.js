@@ -1,7 +1,14 @@
+import { useState } from "react"
 import logo from "../img/logo.png"
 import "../styles/navbar.css"
 
 const NavBar = () => {
+  const [isConnect, setIsConnect] = useState(false)
+
+  const walletConnect = () => {
+    setIsConnect(true)
+  }
+
   return (
     <div className="navbar">
       <div className="navbar-logo">
@@ -18,7 +25,15 @@ const NavBar = () => {
         <a href="#">White Paper</a>
       </div>
       <div className="navbar-wallet ">
-        <button className="wallet-connection f-waltui ">Connect Wallet</button>
+        <button
+          className={!isConnect ? "wallet-connection f-waltui" : "hide"}
+          onClick={walletConnect}
+        >
+          Connect Wallet
+        </button>
+        <a className={isConnect ? "wallet-address" : "hide"}>
+          0xf9221CB65B8115cCc0831Ecb5E076c7aE0c4520c
+        </a>
       </div>
     </div>
   )

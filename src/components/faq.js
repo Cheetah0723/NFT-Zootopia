@@ -56,8 +56,8 @@ const faq = () => {
         <div className="faq-element">
           <div className="faq-question" onClick={mintPrice}>
             <p>What is the mint price?</p>
-            <button className={mintprice ? "" : "hide"}>+</button>
-            <button className={mintprice ? "hide" : ""}>-</button>
+            <button className={mintprice ? "" : "hide"}>-</button>
+            <button className={mintprice ? "hide" : ""}>+</button>
           </div>
           <div className={mintprice ? "faq-answer" : "hide"}>
             <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
@@ -68,8 +68,8 @@ const faq = () => {
         <div className="faq-element">
           <div className="faq-question" onClick={mintDate}>
             <p>When is the mint?</p>
-            <button className={mintdate ? "" : "hide"}>+</button>
-            <button className={mintdate ? "hide" : ""}>-</button>
+            <button className={mintdate ? "" : "hide"}>-</button>
+            <button className={mintdate ? "hide" : ""}>+</button>
           </div>
           <div className={mintdate ? "faq-answer" : "hide"}>
             <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
@@ -80,8 +80,8 @@ const faq = () => {
         <div className="faq-element">
           <div className="faq-question" onClick={mintCount}>
             <p>How many GHOG NFTs will be available?</p>
-            <button className={mintcount ? "" : "hide"}>+</button>
-            <button className={mintcount ? "hide" : ""}>-</button>
+            <button className={mintcount ? "" : "hide"}>-</button>
+            <button className={mintcount ? "hide" : ""}>+</button>
           </div>
           <div className={mintcount ? "faq-answer" : "hide"}>
             <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
@@ -92,8 +92,8 @@ const faq = () => {
         <div className="faq-element">
           <div className="faq-question" onClick={Presale}>
             <p>Will there be a pre-sale?</p>
-            <button className={presale ? "" : "hide"}>+</button>
-            <button className={presale ? "hide" : ""}>-</button>
+            <button className={presale ? "" : "hide"}>-</button>
+            <button className={presale ? "hide" : ""}>+</button>
           </div>
           <div className={presale ? "faq-answer" : "hide"}>
             <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
@@ -104,8 +104,8 @@ const faq = () => {
         <div className="faq-element">
           <div className="faq-question" onClick={Benefit}>
             <p>What are the benefits of holding one or multiple GHOG NFTs?</p>
-            <button className={benefit ? "" : "hide"}>+</button>
-            <button className={benefit ? "hide" : ""}>-</button>
+            <button className={benefit ? "" : "hide"}>-</button>
+            <button className={benefit ? "hide" : ""}>+</button>
           </div>
           <div className={benefit ? "faq-answer" : "hide"}>
             <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>
@@ -116,8 +116,8 @@ const faq = () => {
         <div className="faq-element">
           <div className="faq-question" onClick={Reveal}>
             <p>When is the reveal?</p>
-            <button className={reveal ? "" : "hide"}>+</button>
-            <button className={reveal ? "hide" : ""}>-</button>
+            <button className={reveal ? "" : "hide"}>-</button>
+            <button className={reveal ? "hide" : ""}>+</button>
           </div>
           <div className={reveal ? "faq-answer" : "hide"}>
             <p>-1st Round of Whitelist Sales: 14MATIC (20 USDT)</p>

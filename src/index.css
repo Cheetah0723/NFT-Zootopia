@@ -35,6 +35,10 @@ a {
   cursor: pointer;
 }
 
+.hide {
+  display: none;
+}
+
 button {
   cursor: pointer;
 }

@@ -29,6 +29,11 @@
   font-family: "WaltReg";
 }
 
+.navbar-buttons a:hover {
+  color: #71b25a;
+  text-shadow: 2px 2px 5px red;
+}
+
 .wallet-connection {
   height: 52px;
   width: 194px;
@@ -38,6 +43,14 @@
   color: white;
   padding: 15px 18px;
   background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
+}
+
+.wallet-address {
+  background: linear-gradient(180deg, #71b25a 0%, #018678 100%);
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-size: 18px;
 }
 
 @media (max-width: 1600px) {

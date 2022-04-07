@@ -17,7 +17,9 @@ const Game = () => {
       <div className="game-board">
         <img src={play_game} />
       </div>
-      <button className="play-btn">Let's Play</button>
+      <a href="https://zootopia-ecosystem.netlify.app/#/dashboard">
+        <button className="play-btn">Let's Play</button>
+      </a>
     </div>
   )
 }
